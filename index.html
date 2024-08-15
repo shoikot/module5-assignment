@@ -50,6 +50,9 @@
             margin-top: 20px; /* Space above the pagination */
         }
 
+        .dropdown{
+            text-align: left;
+        }
         .table-container {
             margin-bottom: 20px;
         }
@@ -86,6 +89,20 @@
 
                     <li class="nav-item">
                         <a class="nav-link " href="#" tabindex="-1">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="versionDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Select Version
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="versionDropdown">
+                                <li><a class="dropdown-item" href="#">Version 1.0</a></li>
+                                <li><a class="dropdown-item" href="#">Version 1.1</a></li>
+                                <li><a class="dropdown-item" href="#">Version 2.0</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
