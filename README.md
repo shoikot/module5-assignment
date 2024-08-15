@@ -2,5 +2,4 @@
 
 A Project to track your JS learning 
 
-![image](https://github.com/user-attachments/assets/9c6fec11-87b6-421b-a2dc-ad0da72bfe76)
-
+![image](https://github.com/user-attachments/assets/1c20b018-d3bc-4d44-b58e-316a54363f96)
